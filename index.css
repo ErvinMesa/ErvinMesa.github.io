@@ -53,11 +53,11 @@ section.sectioner{
 }
 .sec1{
     background-color: rgb(103,4,121);
-    background-image: url("diwaw/self2.jpg  ");
+    background-image: url("imgs/self1.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: 50% 15vh;
 }
 .sec2{
     background-color: blueviolet;   
@@ -78,13 +78,14 @@ section.sectioner{
     background-color: darkviolet;
 }
 .col-md.data{
+    max-width: 50vw;
     display: inline;
     color: white;
     background-color: rgba(0,0,0,.5);
     border-radius: 25px;
 }
 .btn-info{
-    position: relative;
+    position: absolute;
     top: 75%;
     margin: auto;
     vertical-align: middle;
@@ -108,6 +109,17 @@ section.sectioner{
     }
     .footer{
         margin: auto;
+    }
+    .col-md.data{
+        max-width: 100vw;
+        display: inline;
+        color: white;
+        background-color: rgba(0,0,0,.5);
+        border-radius: 25px;
+    }
+    .btn-info{
+        margin-left: 22.5vw;
+        margin-top: 5vh;
     }
     div.container.footer{
     text-align: center;
