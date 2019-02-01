@@ -51,6 +51,7 @@ section.sectioner{
     scroll-snap-align:start;
     height: 100vh;
 }
+
 .sec1{
     background-color: rgb(103,4,121);
     background-image: url("imgs/self1.jpg");
@@ -104,12 +105,6 @@ section.sectioner{
     .nav-item{
         border-bottom: 1px solid white;
     }
-    .jumbotron{
-        text-align: center;
-    }
-    .footer{
-        margin: auto;
-    }
     .col-md.data{
         max-width: 100vw;
         display: inline;
@@ -121,8 +116,5 @@ section.sectioner{
         margin-left: 22.5vw;
         margin-top: 5vh;
     }
-    div.container.footer{
-    text-align: center;
-}
 }
 
