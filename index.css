@@ -77,7 +77,7 @@ section.sectioner{
 .sec3{
     background-color: darkviolet;
 }
-.col.data{
+.col-md.data{
     display: inline;
     color: white;
     background-color: rgba(0,0,0,.5);
