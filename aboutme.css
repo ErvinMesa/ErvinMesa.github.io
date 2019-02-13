@@ -19,8 +19,22 @@
 li{
   font-size: 12px;
 }
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 550px){
   .self,.data{
     text-align: center
+  }
+  img{
+    margin: auto;
+    width: 80vw;
+    height: 100vw;
+  }
+  ul{
+    margin: 0;
+    padding:0;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+    list-style-type: none;
   }
 }

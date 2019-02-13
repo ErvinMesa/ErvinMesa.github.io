@@ -34,10 +34,13 @@ nav .nav-link.active:hover {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+h1.welcome{
+  font-size: 55px;
+}
 .welcome {
   color: white;
   text-align: center;
-  top: 70%;
+  top: 75%;
   position: relative;
   background-color: #000000;
   box-shadow: 5px -10px 100px #000000;
@@ -73,11 +76,11 @@ p.welcome {
   background-color: darkviolet;
 }
 .sections .col-md.data {
-  max-width: 50vw;
   display: inline;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 25px;
+  max-width: 50vw;
 }
 .sections .btn-info {
   position: absolute;
@@ -91,7 +94,7 @@ p.welcome {
   color: black;
   vertical-align: middle;
 }
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 720px) {
   nav .nav-link {
     text-align: center;
     margin: auto;
@@ -99,8 +102,18 @@ p.welcome {
   nav .nav-item {
     border-bottom: 1px solid white;
   }
-  .col-md.data {
+  .welcome{
+    top:70%;
+  }
+  p.welcome{
+    padding-bottom: 15vh;
+  }
+  h1.welcome{
+    font-size: 50px;
+  }
+  .sections .col-md.data {
     max-width: 100vw;
+    width: 100vw;
     display: inline;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
@@ -109,5 +122,11 @@ p.welcome {
   .btn-info {
     margin-left: 22.5vw;
     margin-top: 5vh;
+  }
+  .sections .sec2 {
+    background-size: cover;
+  }
+  .section .sec2,.sections .sec3 h2{
+    font-size: 60px;
   }
 }
