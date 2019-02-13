@@ -1,0 +1,26 @@
+.jumbotron{
+  text-align: center;
+}
+.self{
+  border: 1px solid lightblue;
+  margin-left: 5vw;
+}
+.data{
+  margin-top: 10px;
+  color: white;
+}
+.row.line{
+  border-bottom: 1px solid white;
+}
+.row.me{
+  margin-bottom: 3vh;
+  padding-bottom: 5vh;
+}
+li{
+  font-size: 12px;
+}
+@media only screen and (max-width: 1024px){
+  .self,.data{
+    text-align: center
+  }
+}

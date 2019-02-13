@@ -1,0 +1,29 @@
+.jumbotron{
+  text-align: center;
+}
+.writing-data{
+  border-bottom: 1px solid black;
+  padding-bottom: 3vh;
+  margin-bottom: 3vh;
+}
+.title{
+  font-size: 22px;
+  color: white;
+}
+.sample-content{
+  overflow: hidden;
+  width: 50vw;
+  background-color: inherit;
+  border: none;
+  color: white;
+  text-align: left;
+}
+
+div.writeup p{
+  overflow: hidden;
+  width: 75vw;
+  background-color: inherit;
+  border: none;
+  color: white;
+  text-align: left;
+}

@@ -54,14 +54,14 @@ section.sectioner{
 
 .sec1{
     background-color: rgb(103,4,121);
-    background-image: url("imgs/self1.jpg");
+    background-image: url("imgs/self1.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 15vh;
 }
 .sec2{
-    background-color: blueviolet;   
+    background-color: blueviolet;
     background-image: url("imgs/write.jpg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -117,4 +117,3 @@ section.sectioner{
         margin-top: 5vh;
     }
 }
-
