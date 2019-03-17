@@ -1,3 +1,8 @@
+.nav{
+  margin-left: 1vw;
+  margin-bottom: 1vh;
+}
+
 .jumbotron{
   text-align: center;
 }
@@ -5,8 +10,35 @@
   border: 1px solid lightblue;
   margin-left: 5vw;
 }
-.data{
+.red{
+  background-color: #ff1a1a;
+}
+.blue{
+  background-color: #0033cc;
+}
+.green{
+  background-color: #00cc66;
+}
+.jr{
+  position:absolute;
+  margin-left: 500px;
+  margin-top: 50px;
+  width:100px;
+  height: 100px;
+  content: url("imgs/jrizal.jpg");
+  border-radius: 100%;
+}
+span.test{
+  position: absolute;
+  content: '';
+  margin-left: 5vw;
+  height: 30vh;
+  width: 90vw;
+  transform: skew(-20deg);
+}
+.data p,.data ul{
   margin-top: 10px;
+  margin-left: 10vw;
   color: white;
 }
 .row.line{

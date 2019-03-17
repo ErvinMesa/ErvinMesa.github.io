@@ -1,0 +1,207 @@
+html,
+body {
+  background-attachment: fixed;
+  background-color: #0c123d;
+  scroll-snap-type: y mandatory;
+  overflow-x: hidden;
+}
+.hidden{
+  display:none;
+}
+nav {
+  background-color: #0c123d;
+  box-shadow: 0px 2px 15px #041077;
+}
+nav a.navbar-brand {
+  font-family: 'Lobster', cursive;
+}
+nav .navpic {
+  width: 2.5rem;
+  height: 25%;
+}
+nav .nav-link {
+  color: black;
+  font-family: 'Righteous', cursive;
+}
+nav .nav-item {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+nav .nav-link.active:hover {
+  background-color: #2c3587;
+  border-radius: 5px;
+}
+h1.welcome{
+  font-size: 55px;
+}
+.self-image{
+  width: 100vw;
+  height: 75vh;
+  background-color:#730184;
+  background-image: url("../imgs/self1.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: -1.5vw;
+  padding-bottom: -5vh;
+}
+.welcome {
+  color: white;
+  text-align: center;
+  position: relative;
+  background-color: #000000;
+  box-shadow: 5px -10px 100px #000000;
+  margin-bottom: 0;
+  width: 100vw;
+}
+p.welcome {
+  font-family: 'Righteous', cursive;
+  padding-bottom: 11vh;
+}
+.menu{
+  height: 30vh;
+}
+.content{
+  font-size:20pt;
+}
+.par-content{
+  margin-top: 10vh;
+  margin-left: 10vw;
+  transform: skewX(-20deg);
+}
+.par{
+  content:'';
+  transform: skewX(20deg);
+  height: 30vh;
+  width: 30vw;
+}
+.par-1{
+  background-color: #30ccc6;
+  margin-left:5vw;
+}
+.par-2{
+  background-color: #2091c1;
+}
+.par-3{
+  color:white;
+  margin-top:-3vh;
+}
+.par-3 ul{
+  list-style-type: none;
+}
+.sec{
+  height: 100vh;
+}
+.sec-2{
+  margin-top: 28.5vh;
+}
+
+.nav{
+  margin: auto;
+  width: 100vw;
+}
+
+.jumbotron{
+  text-align: center;
+}
+.self{
+  border: 1px solid lightblue;
+  margin-left: 5vw;
+}
+.red{
+  background-color: #ff1a1a;
+}
+.blue{
+  background-color: #0033cc;
+}
+.green{
+  background-color: #00cc66;
+}
+.jr{
+  position:absolute;
+  margin-left: 500px;
+  margin-top: 50px;
+  width:100px;
+  height: 100px;
+  content: url("../imgs/jrizal.jpg");
+  border-radius: 100%;
+}
+span.test{
+  position: absolute;
+  content: '';
+  margin-left: 5vw;
+  height: 30vh;
+  width: 90vw;
+  transform: skew(-20deg);
+}
+.data p,.data ul{
+  margin-top: 10px;
+  margin-left: 10vw;
+  color: white;
+}
+.row.line{
+  border-bottom: 1px solid white;
+}
+.row.me{
+  margin-bottom: 3vh;
+  padding-bottom: 5vh;
+}
+li{
+  font-size: 12px;
+}
+.jumbotron{
+  height: 40vh;
+}
+.carousel{
+  margin: auto;
+  height: 50vh;
+  width: 60vw;
+}
+.carousel-item img{
+  height: 100vh;
+  width: 5vw;
+}
+@media only screen and (max-width: 550px){
+  .self,.data{
+    text-align: center
+  }
+  img{
+    margin: auto;
+    width: 80vw;
+    height: 100vw;
+  }
+  ul{
+    margin: 0;
+    padding:0;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+    list-style-type: none;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  nav .nav-link {
+    text-align: center;
+    margin: auto;
+  }
+  nav .nav-item {
+    border-bottom: 1px solid white;
+  }
+  .welcome{
+    top:70%;
+  }
+  p.welcome{
+    padding-bottom: 15vh;
+  }
+  h1.welcome{
+    font-size: 50px;
+  }
+  .btn-info {
+    margin-left: 22.5vw;
+    margin-top: 5vh;
+  }
+}
