@@ -117,16 +117,17 @@ p.welcome {
   background-color: #0033cc;
 }
 .green{
-  background-color: #00cc66;
+  background-color: #107214;
 }
 .jr{
   position:absolute;
-  margin-left: 500px;
+  margin-left: 80vw;
   margin-top: 50px;
   width:100px;
   height: 100px;
   content: url("../imgs/jrizal.jpg");
   border-radius: 100%;
+  opacity: .1;
 }
 span.test{
   position: absolute;

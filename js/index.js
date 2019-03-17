@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(function(){
     $(".welcome").hide().removeClass("hidden");
     $("h1.welcome").fadeIn(2000);
     $("p.welcome").fadeIn(2000);
@@ -12,11 +12,11 @@ $(document).scroll(function(){
     $("div.par-2").fadeIn(2000);
     $("div.par-3").fadeIn(2500);
   }
-  if(y>800){
+  if(y>400){
     $(".lead").fadeIn(2000);
     $(".aboutme-lead").fadeIn(1000);
   }
-  else if(y < 800){
+  else if(y < 50){
     $("div.par-1").hide();
     $("div.par-2").hide();
     $("div.par-3").hide();
@@ -24,10 +24,11 @@ $(document).scroll(function(){
     $(".aboutme-lead").hide();
   }
 });
+
 var currselection = "row.data.general";
 var color = "blue";
 function switchColor(newsel,currsel,newcol){
-  $("span.test").removeClass(color);
+        $("span.test").removeClass(color);
         $("span.test").addClass(newcol);
         $("span.test").slideUp(100);
         $("span.test").slideDown();
@@ -35,6 +36,7 @@ function switchColor(newsel,currsel,newcol){
         $(".jr").fadeIn(1000);
         $(currsel).fadeOut(100);
         $(newsel).fadeIn();
+
 }
 function addPictures(){
     return "<div class='col'><a href=></div>";
@@ -46,25 +48,21 @@ function addPictures(){
     });
     $(document).ready(function(){
     $(".nav-item.general").click(function(){
-        switchColor(".row.data.general",currselection,"blue");
         $(".jr").show();
         color = "blue";
         currselection = ".row.data.general";
       });
       $(".nav-item.likes").click(function(){
-        switchColor(".row.data.likes",currselection,"red");
         $(".jr").show();
         color = "red";
         currselection = ".row.data.likes";
       });
       $(".nav-item.story").click(function(){
-        switchColor(".row.data.story",currselection,"green");
         $(".jr").show();
         color = "green";
         currselection = ".row.data.story";
       });
       $(".nav-item.social").click(function(){
-        switchColor(".row.data.social",currselection,"blue");
         $(".jr").show();
         color = "blue";
         currselection = ".row.data.social";
