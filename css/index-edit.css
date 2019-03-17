@@ -183,7 +183,21 @@ li{
     list-style-type: none;
   }
 }
-
+.gallery img{
+  height: 20vh;
+  width: 10vw;
+  margin: 5px 5px 5px 5px;
+}
+.modal-body{
+  text-align: center;
+}
+img.modal-pic{
+  text-align: center;
+  max-width: 50vw;
+  max-height: 50vh;
+}
+.modal-content{
+}
 @media only screen and (max-width: 720px) {
   nav .nav-link {
     text-align: center;

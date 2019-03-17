@@ -38,8 +38,9 @@ function switchColor(newsel,currsel,newcol){
         $(newsel).fadeIn();
 
 }
-function addPictures(){
-    return "<div class='col'><a href=></div>";
+function showImage(pic){
+  $("#modal-body").html("<img class=modal-pic src='imgs/"+pic+".jpg'></img>");
+  $("#myModal").modal('show');
 }
     $(document).ready(function(){
       $("span.test").hide();
@@ -71,13 +72,9 @@ function addPictures(){
         $(".jr").hide();
         $("span.test").fadeOut(300);
         $(currselection).fadeOut(100);
-        $(".row.data.gallery").fadeIn(400,function(){
-          $([document.documentElement, document.body]).animate({
-              scrollTop: $(".carousel-inner").offset().top
-          }, 2000);
-        });
+        $(".row.data.gallery").fadeIn();
         currselection = ".row.data.gallery";
-      })
+      });
     });
     $("#aboutme").click(function() {
     $([document.documentElement, document.body]).animate({
