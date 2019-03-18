@@ -39,7 +39,8 @@ function switchColor(newsel,currsel,newcol){
 
 }
 function showImage(pic){
-  $("#modal-body").html("<img class=modal-pic src='imgs/"+pic+".jpg'></img>");
+  $("#modal-body").html(
+    "<div class='container-fluid'><div class='row'><div class='col first'><img class='modal-pic' src='imgs/"+pic+".jpg'></img></div><div class='col'><img class='avatar' src='imgs/self2.jpg'><p class='modal-words'>ervinmesa</p><hr width='80%'></div>");
   $("#myModal").modal('show');
 }
     $(document).ready(function(){
