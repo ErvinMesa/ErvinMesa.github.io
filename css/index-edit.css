@@ -86,7 +86,7 @@ p.welcome {
 .par{
   content:'';
   transform: skewX(20deg);
-  height: 30vh;
+  height: 28vh;
   width: 30vw;
 }
 .par-1{
